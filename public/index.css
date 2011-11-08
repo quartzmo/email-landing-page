@@ -1,0 +1,130 @@
+body, html {
+  background-color: #f4f4f4;
+}
+
+body {
+  color: #52585D;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-align: center;
+  min-height: 100%;
+}
+
+#container {
+  background-color: white;
+  border-radius: 0.67em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  margin: 5% auto 0 auto;
+  width: 50em;
+  padding: 2%;
+}
+
+a {
+  color: #2D81C5;
+  text-decoration: none;
+}
+
+h1 {
+  color: #222;
+  font-family: "agb", Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-shadow: #aaaaaa 1px 1px 1px;
+  font-weight: normal;
+  font-size: 3.33em;
+  margin:  0.33em 0;
+}
+
+h1 a {
+  color: #222;
+}
+
+#tagline, #description, #signup-instructions, #footer  {
+}
+
+#tagline {
+  color: #42484D;
+  width: 23em;
+  text-align: left;
+  font-size: 1.4em;
+  margin:1.5em auto;
+}
+
+#description {
+  width: 35em;
+  text-align: left;
+  font-size: 0.9em;
+  line-height: 1.2em;
+  margin: 1.67em auto 0.8em auto;
+}
+
+#notices {
+  color: #40449B;
+  width: 35em;
+  text-align: center;
+  font-size: 1em;
+  min-height: 1.2em;
+  margin: 0 auto;
+}
+
+#signup-terms, #footer {
+  width: 38em;
+  font-size: 0.75em;
+  line-height: 1.0em;
+}
+
+#signup-terms {
+  color: #7a7a7a;
+  text-align: left;
+  width: 36em;
+  font-style: italic;
+  margin: 2.67em auto;
+}
+
+#signup-terms a {
+  color: #2D81C5;
+}
+
+#footer {
+  color: #828A91;
+  margin: 1.33em auto;
+}
+
+#footer a {
+  color: #828A91;
+}
+
+form {
+  margin: 1.33em auto;
+}
+
+form input {
+  border: 1px solid #aaaaaa;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 0.2em;
+  padding: 5px;
+  font-size: 110%;
+  font-family: Georgia, serif;
+}
+
+form input#email {
+  width: 18em;
+}
+
+form input[type=submit] {
+  border: 1px solid #c5250f;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ef4832), color-stop(100%, #c5250f));
+  background-image: -moz-linear-gradient(top, #ef4832 0%, #c5250f 100%);
+  background-image: linear-gradient(top, #299a0b 0%, #299a0b 100%);
+  text-shadow: #999999 0px -1px 1px;
+  color: white;
+}
+
+form input[type=submit]:active {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #c5250f), color-stop(100%, #7e170a));
+  background-image: -moz-linear-gradient(top, #c5250f 0%, #7e170a 100%);
+  background-image: linear-gradient(top, #c5250f 0%, #7e170a 100%);
+}
+
+form .placeholder {
+  color: #888;
+}
