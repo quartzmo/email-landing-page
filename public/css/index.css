@@ -6,17 +6,14 @@ body {
   color: #52585D;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   text-align: center;
-  min-height: 100%;
 }
 
-#container {
+.feature {
   background-color: white;
   border-radius: 0.67em;
   -moz-border-radius: 0.8em;
   -webkit-border-radius: 0.8em;
-  margin: 5% auto 0 auto;
-  width: 50em;
-  padding: 2%;
+  margin-top: 60px;
 }
 
 a {
@@ -30,43 +27,30 @@ h1 {
   text-shadow: #aaaaaa 1px 1px 1px;
   font-weight: normal;
   font-size: 3.33em;
-  margin:  0.33em 0;
+  margin-top: 32px;
 }
 
-h1 a {
-  color: #222;
-}
-
-#tagline, #description, #signup-instructions, #footer  {
-}
-
-#tagline {
+h2 {
   color: #42484D;
-  width: 23em;
-  text-align: left;
+  font-weight: normal;
   font-size: 1.4em;
-  margin:1.5em auto;
+  margin-top: 16px;
 }
 
-#description {
-  width: 35em;
+.description {
   text-align: left;
   font-size: 0.9em;
   line-height: 1.2em;
-  margin: 1.67em auto 0.8em auto;
 }
 
 #notices {
   color: #40449B;
-  width: 35em;
   text-align: center;
   font-size: 1em;
   min-height: 1.2em;
-  margin: 0 auto;
 }
 
 #signup-terms, #footer {
-  width: 38em;
   font-size: 0.75em;
   line-height: 1.0em;
 }
@@ -74,9 +58,7 @@ h1 a {
 #signup-terms {
   color: #7a7a7a;
   text-align: left;
-  width: 36em;
   font-style: italic;
-  margin: 2.67em auto;
 }
 
 #signup-terms a {
@@ -85,7 +67,6 @@ h1 a {
 
 #footer {
   color: #828A91;
-  margin: 1.33em auto;
 }
 
 #footer a {
@@ -93,7 +74,6 @@ h1 a {
 }
 
 form {
-  margin: 1.33em auto;
 }
 
 form input {
@@ -107,7 +87,6 @@ form input {
 }
 
 form input#email {
-  width: 18em;
 }
 
 form input[type=submit] {
