@@ -1,7 +1,9 @@
 Email Landing Page
 ============
 
-A simple, customizable landing page for email signup, based on Rack and Sinatra. The current version has MailChimp and Google Analytics integration.
+A simple, customizable landing page for email signup, based on [Rack](https://github.com/rack/rack), [Sinatra](https://github.com/sinatra/sinatra), [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate), and [Twitter Bootstrap](https://github.com/twitter/bootstrap).
+
+The current version has optional MailChimp and Google Analytics integration.
 
 Please visit the [live demo](http://landingpages.herokuapp.com/) on Heroku and join the project mailing list
 

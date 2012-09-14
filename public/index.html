@@ -1,63 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Easy Email Landing Pages</title>
-    <link href="/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css"/>
-    <link href="/css/index.css" media="screen" rel="stylesheet" type="text/css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" type="text/javascript"></script>
-    <script src="/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="/js/index.js" type="text/javascript"></script>
-    <meta name="description"
-          content="Easy Email Landing Pages - Heroku-ready Rack Landing Page with MailChimp and Google Analytics integration">
-    <meta name="tags" content="landing,launch,mailchimp,heroku,rack,sinatra,github">
-</head>
-<body>
-<div class="container">
-    <div class="row">
-        <div class="span8 offset2 feature">
-            <h1>Easy Email Landing Pages</h1>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Easy Email Landing Pages</title>
+        <meta name="description" content="Easy Email Landing Pages - Heroku-ready Rack Landing Page with MailChimp and Google Analytics integration">
+        <meta name="tags" content="landing,launch,mailchimp,heroku,rack,sinatra,github">
+        <meta name="viewport" content="width=device-width">
 
-            <h2>Free, open-source, and live on Heroku in minutes</h2>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/vendor/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <div class="container">
             <div class="row">
-                <div class="span6 offset1 description">
+                <div class="span8 offset2 feature">
+                    <h1>Easy Email Landing Pages</h1>
 
-                    <p>
-                        The current version has <strong>MailChimp</strong> and <strong>Google Analytics</strong>
-                        integration, and that's just the beginning. Our goal is an open-source platform dedicated to
-                        landing pages,
-                        complete with themes, editor, dashboard, and A/B testing.
-                    </p>
+                    <h2>Free, open-source, and live on Heroku in minutes</h2>
 
-                    <p>
-                        Available now on <a href="https://github.com/quartzmo/email-landing-page"
-                                            target="_blank">GitHub</a>. Join the mailing list for news and updates.
-                    </p>
+                    <div class="row">
+                        <div class="span6 offset1 description">
+
+                            <p>
+                                The current version has <strong>MailChimp</strong> and <strong>Google Analytics</strong>
+                                integration, and that's just the beginning. Our goal is an open-source platform
+                                dedicated to
+                                landing pages,
+                                complete with themes, editor, dashboard, and A/B testing.
+                            </p>
+
+                            <p>
+                                Available now on <a href="https://github.com/quartzmo/email-landing-page"
+                                                    target="_blank">GitHub</a>. Join the mailing list for news and
+                                updates.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="notices">
+                        <div id="success" style="display: none;">Success! You're on the list.</div>
+                        <div id="error" style="display: none;">Sorry, we couldn't validate your email. Try again?</div>
+                    </div>
+                    <form action="/signup">
+                        <input id="email" name="email" type="text" placeholder="Email me about the project"/>
+                        <input type="submit" value="Subscribe"/>
+                    </form>
+                    <div class="signup-terms">
+                        You will receive only relevant, occasional messages, and your email
+                        will be stored only by MailChimp, ensuring prompt removal should you
+                        choose to unsubscribe.
+                    </div>
                 </div>
             </div>
-            <div id="notices">
-                <div id="success" style="display: none;">Success! You're on the list.</div>
-                <div id="error" style="display: none;">Sorry, we couldn't validate your email. Try again?</div>
-            </div>
-            <form action="/signup">
-                <input id="email" name="email" type="text" placeholder="Email me about the project"/>
-                <input type="submit" value="Subscribe"/>
-            </form>
-            <div class="signup-terms">
-                You will receive only relevant, occasional messages, and your email
-                will be stored only by MailChimp, ensuring prompt removal should you
-                choose to unsubscribe.
+            <div id="footer">
+                <p>
+                    <a href="https://github.com/quartzmo" target="_blank">About</a>
+                    &nbsp;
+                    <a href="http://twitter.com/quartzmo" target="_blank">Contact</a>
+                </p>
             </div>
         </div>
-    </div>
-    <div id="footer">
-        <p>
-            <a href="https://github.com/quartzmo" target="_blank">About</a>
-            &nbsp;
-            <a href="http://twitter.com/quartzmo" target="_blank">Contact</a>
-        </p>
-    </div>
-</div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
+        <script src="/js/vendor/bootstrap.min.js"></script>
+        <script src="/js/plugins.js"></script>
+        <script src="/js/main.js"></script>
 
 </body>
 </html>
