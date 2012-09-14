@@ -6,13 +6,15 @@ body {
   color: #52585D;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   text-align: center;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 .feature {
   background-color: white;
-  border-radius: 0.67em;
-  -moz-border-radius: 0.8em;
-  -webkit-border-radius: 0.8em;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
   margin-top: 60px;
 }
 
@@ -26,67 +28,64 @@ h1 {
   font-family: "agb", Helvetica Neue, Helvetica, Arial, sans-serif;
   text-shadow: #aaaaaa 1px 1px 1px;
   font-weight: normal;
-  font-size: 3.33em;
+  font-size: 32px;
   margin-top: 32px;
 }
 
 h2 {
   color: #42484D;
   font-weight: normal;
-  font-size: 1.4em;
+  font-size: 16px;
   margin-top: 16px;
 }
 
 .description {
   text-align: left;
-  font-size: 0.9em;
-  line-height: 1.2em;
 }
 
 #notices {
   color: #40449B;
   text-align: center;
-  font-size: 1em;
-  min-height: 1.2em;
-}
-
-#signup-terms, #footer {
-  font-size: 0.75em;
-  line-height: 1.0em;
-}
-
-#signup-terms {
-  color: #7a7a7a;
-  text-align: left;
-  font-style: italic;
-}
-
-#signup-terms a {
-  color: #2D81C5;
-}
-
-#footer {
-  color: #828A91;
-}
-
-#footer a {
-  color: #828A91;
+  min-height: 18px;
 }
 
 form {
+    text-align: center;
+    margin-top: 9px;
+}
+
+.signup-terms, #footer {
+  margin-bottom: 16px;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.signup-terms {
+  color: #7a7a7a;
+  font-style: italic;
+}
+
+.signup-terms a {
+  color: #2D81C5;
+}
+
+.bottom-nav {
+  margin-top: 16px;
+  color: #828A91;
 }
 
 form input {
   border: 1px solid #aaaaaa;
   border-radius: 3px;
   -moz-border-radius: 3px;
-  -webkit-border-radius: 0.2em;
+  -webkit-border-radius: 3px;
   padding: 5px;
-  font-size: 110%;
+  font-size: 14px;
   font-family: Georgia, serif;
 }
 
 form input#email {
+  margin-bottom: 0;
 }
 
 form input[type=submit] {
