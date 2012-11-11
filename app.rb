@@ -11,7 +11,7 @@ configure do
 end
 
 get '/' do
-  File.read(File.join('public', 'index.html'))
+  erb :index
 end
 
 post '/signup' do
