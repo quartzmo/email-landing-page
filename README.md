@@ -21,8 +21,8 @@ Please visit the [live demo](http://landingpages.herokuapp.com/) on Heroku and j
 1. `$ bundle exec rackup` to start the app locally on port 9292.
 1. Test locally.
 1. Register for a free Heroku account (optional).
-1. Follow instructions to deploy to Heroku, using the Cedar stack if desired (optional).
-1. Configure custom domain name with Heroku.
+1. Follow the [Ruby instructions](https://devcenter.heroku.com/articles/ruby) to deploy to Heroku (optional).
+1. Configure [custom domain](https://devcenter.heroku.com/articles/custom-domains) name with Heroku.
 
 Todo: Full instructions including Heroku deployment
 
