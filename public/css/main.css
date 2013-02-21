@@ -90,14 +90,13 @@ h2 {
 }
 
 #notices {
-  color: #40449B;
   text-align: center;
   min-height: 18px;
   margin-top: 20px;
 }
 
 #success {
-  color: #46C062;
+  color: #40449B;
 }
 
 #error {
