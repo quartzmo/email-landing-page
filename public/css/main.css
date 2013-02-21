@@ -2,6 +2,47 @@ body, html {
   background-color: #f4f4f4;
 }
 
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    height: 60px;
+}
+
+#footer {
+    background-color: #f5f5f5;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* End sticky footer styles
+-------------------------------------------------- */
+
 body {
   color: #52585D;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -10,12 +51,19 @@ body {
   line-height: 18px;
 }
 
+/* Custom container */
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
 .feature {
   background-color: white;
   border-radius: 6px;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
-  margin-top: 60px;
+  margin-top: 40px;
+  padding: 20px 50px;
 }
 
 a {
@@ -29,14 +77,12 @@ h1 {
   text-shadow: #aaaaaa 1px 1px 1px;
   font-weight: normal;
   font-size: 32px;
-  margin-top: 32px;
 }
 
 h2 {
   color: #42484D;
   font-weight: normal;
   font-size: 16px;
-  margin-top: 16px;
 }
 
 .description {
@@ -47,26 +93,29 @@ h2 {
   color: #40449B;
   text-align: center;
   min-height: 18px;
+  margin-top: 20px;
+}
+
+#success {
+  color: #46C062;
+}
+
+#error {
+  color: #E52228;
 }
 
 form {
     text-align: center;
-    margin-top: 9px;
-}
-
-.signup-terms, #footer {
-  margin-bottom: 16px;
-  font-size: 10px;
-  line-height: 14px;
+    margin-top: 10px;
 }
 
 .signup-terms {
+  font-size: 11px;
+  line-height: 15px;
   color: #7a7a7a;
   font-style: italic;
-}
-
-.signup-terms a {
-  color: #2D81C5;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .bottom-nav {
@@ -74,35 +123,9 @@ form {
   color: #828A91;
 }
 
-form input {
-  border: 1px solid #aaaaaa;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  padding: 5px;
-  font-size: 14px;
-  font-family: Georgia, serif;
-}
 
-form input#email {
-  margin-bottom: 0;
-}
-
-form input[type=submit] {
-  border: 1px solid #c5250f;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ef4832), color-stop(100%, #c5250f));
-  background-image: -moz-linear-gradient(top, #ef4832 0%, #c5250f 100%);
-  background-image: linear-gradient(top, #299a0b 0%, #299a0b 100%);
-  text-shadow: #999999 0px -1px 1px;
-  color: white;
-}
-
-form input[type=submit]:active {
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #c5250f), color-stop(100%, #7e170a));
-  background-image: -moz-linear-gradient(top, #c5250f 0%, #7e170a 100%);
-  background-image: linear-gradient(top, #c5250f 0%, #7e170a 100%);
-}
-
-form .placeholder {
-  color: #888;
+@media (max-width: 767px) {
+    button {
+        margin-top: 10px;
+    }
 }
