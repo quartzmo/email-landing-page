@@ -1,7 +1,7 @@
 Email Landing Page
 ============
 
-A simple, customizable landing page for email signup, based on [Rack](https://github.com/rack/rack), [Sinatra](https://github.com/sinatra/sinatra), [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate), and [Twitter Bootstrap](https://github.com/twitter/bootstrap).
+A simple, customizable landing page for email signup, based on [Twitter Bootstrap](https://github.com/twitter/bootstrap), [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate), and [Sinatra](https://github.com/sinatra/sinatra).
 
 The current version has optional MailChimp and Google Analytics integration.
 
@@ -23,8 +23,6 @@ Please visit the [live demo](http://landingpages.herokuapp.com/) on Heroku and j
 1. Register for a free Heroku account (optional).
 1. Follow the [Ruby instructions](https://devcenter.heroku.com/articles/ruby) to deploy to Heroku (optional).
 1. Configure [custom domain](https://devcenter.heroku.com/articles/custom-domains) name with Heroku.
-
-Todo: Full instructions including Heroku deployment
 
 # Credits
 
