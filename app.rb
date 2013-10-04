@@ -5,10 +5,13 @@ require 'hominid' # MailChimp
 configure do
 
   # MailChimp configuration: ADD YOUR OWN ACCOUNT INFO HERE!
-  set :mailchimp_api_key, "YOUR MAILCHIMP API KEY HERE"
-  set :mailchimp_list_name, "YOUR MAILCHIMP LIST NAME HERE"
+  set :mailchimp_api_key, ENV['MAILCHIMP_API_KEY']
+  set :mailchimp_list_name, ENV['MAILCHIMP_LIST_NAME']
 
 end
+
+raise Exception.new("Please specify MAILCHIMP_API_KEY in your environment") if settings.mailchimp_api_key.nil?
+raise Exception.new("Please specify MAILCHIMP_LIST_NAME in your environment") if settings.mailchimp_list_name.nil?
 
 get '/' do
   erb :index
