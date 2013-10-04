@@ -9,7 +9,8 @@ Please visit the [live demo](http://landingpages.herokuapp.com/) on Heroku and j
 
 # Instructions
 
-1. `$ git clone git://github.com/quartzmo/email-landing-page.git`
+1. Fork this project.
+1. `$ git clone git://github.com/<yourusernamehere>/email-landing-page.git`
 1. `$ cd email-landing-page`
 1. `$ rm -rf .git`
 1. `$ bundle install`
