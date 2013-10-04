@@ -10,6 +10,9 @@ configure do
 
 end
 
+raise Exception.new("Please specify MAILCHIMP_API_KEY in your environment") if settings.mailchimp_api_key.nil?
+raise Exception.new("Please specify MAILCHIMP_LIST_NAME in your environment") if settings.mailchimp_list_name.nil?
+
 get '/' do
   erb :index
 end
